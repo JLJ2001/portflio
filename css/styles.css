@@ -4223,6 +4223,17 @@ textarea.form-control-lg {
   margin-left: var(--bs-card-spacer-x);
 }
 
+header {
+  background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCB045);
+  color: white; /* Ensure the text is readable against the gradient */
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCB045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .card-header {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   margin-bottom: 0;
